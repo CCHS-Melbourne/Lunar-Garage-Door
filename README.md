@@ -57,6 +57,7 @@ We encountered difficulties when the last number of the IP address of the ESP-RF
 3. (Do the wifi stuff, go to advanced>network>LAN settings>scroll down>address reservation>add) 
 
 ## Hardware  
+![Image of Adafruit card reader connected by white six core cable to ESP-RFID 'blue-board' with yellow and purple wires coiled above, power leads leaving frame, and white access card with eye containing question mark scratched into it](https://github.com/CCHS-Melbourne/Lunar-Garage-Door/blob/main/Hardware%20low%20res.jpeg)  
 For the brains, we are using the [ESP-RFID](https://github.com/esprfid/esp-rfid) project, specifically the ['blue-board'](https://github.com/esprfid/esp-rfid-board) version.  
 For the actual card-reader, we are using the [Adafruit PN532 NFC/RFID controller](https://www.adafruit.com/product/364). 
 The garage door (insert manual here) contains a 'dry-strike' contact. When the two terminals are connected, the garage door triggers with 'up', 'stop', and 'down' triggers. 
