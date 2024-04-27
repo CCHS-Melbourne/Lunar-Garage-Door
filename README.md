@@ -66,7 +66,8 @@ The nearest appropriate 12V wall-wart was employed to power the ESP-RFID board. 
 ## Wiring
 The ESP-RFID controller and card-reader were connected by a six core wire. The SPI protocol was used.  
 The garage door's contacts were wired to the common and 'normally' open terminals of the controller's relay.  
-The 12V power supply's terminals were connected to the '12V' and 'GND' terminals on the ESP-RFID's controller. All of these wires are terminated with crimped ferrels, as a point of pride.   
+The 12V power supply's terminals were connected to the '12V' and 'GND' terminals on the ESP-RFID's controller.  
+All of these wires are terminated with crimped ferrels, as a point of pride.   
 The terminals of the card-reader are not a point of pride, however, consisting of bent Dupont connectors soldered to a socket connecter to a block with screw-down terminals. As they say, _there's nothing more permanent than a quick fix._
 
 ## Mounting
