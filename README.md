@@ -54,7 +54,7 @@ We encountered difficulties when the last number of the IP address of the ESP-RF
 **How to change the static/assigned IP address:**  
 1. Access the router's web-portal: [192.168.0.1](192.168.0.1)
 2. The router's username and password may be found in the passwords file accessable by CCHS committee members.
-3. (Do the wifi stuff, go to advanced>network>LAN settings>scroll down>address reservation>add) 
+3. (Do the wifi stuff, go to advanced>network>LAN settings>scroll down>address reservation>add) This has to be done once you get the MAC address of the ESP-RFID.
 
 ## Hardware  
 ![Image of Adafruit card reader connected by white six core cable to ESP-RFID 'blue-board' with yellow and purple wires coiled above, power leads leaving frame, and white access card with eye containing question mark scratched into it](https://github.com/CCHS-Melbourne/Lunar-Garage-Door/blob/main/Hardware%20low%20res.jpeg)  
