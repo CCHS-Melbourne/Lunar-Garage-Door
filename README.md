@@ -58,10 +58,10 @@ We encountered difficulties when the last number of the IP address of the ESP-RF
 
 ## Hardware  
 ![Image of Adafruit card reader connected by white six core cable to ESP-RFID 'blue-board' with yellow and purple wires coiled above, power leads leaving frame, and white access card with eye containing question mark scratched into it](https://github.com/CCHS-Melbourne/Lunar-Garage-Door/blob/main/Hardware%20low%20res.jpeg)  
-For the brains, we are using the [ESP-RFID](https://github.com/esprfid/esp-rfid) project, specifically the ['blue-board'](https://github.com/esprfid/esp-rfid-board) version.  
+For the brains, we are using the [ESP-RFID](https://github.com/esprfid/esp-rfid) project, specifically the ['blue-board'](https://github.com/esprfid/esp-rfid-board) version. It is important to set the approriate interface/card-reader type in the web-interface (Settings>Hardware Settings>Reader Type>MFCR255, in our present instance, after condenstation blew up our $80 Adafruit PN532 and John came to the rescue with his electronics stash).   
 For the actual card-reader, we are using the [Adafruit PN532 NFC/RFID controller](https://www.adafruit.com/product/364). 
 The garage door (insert manual here) contains a 'dry-strike' contact. When the two terminals are connected, the garage door triggers with 'up', 'stop', and 'down' triggers. 
-The nearest appropriate 12V wall-wart was employed to power the ESP-RFID board. A 12V supply is definitely needed, as the on-board relay does not engage if not so apporpriately powered. 
+The nearest appropriate 12V wall-wart was employed to power the ESP-RFID board. A 12V supply is definitely needed, as the on-board relay does not engage if not so apporpriately powered. The wall wart was able to output voltages per a sliding switch on the terminal side of the body. The power output of the 9V and 12V settings were tested, and the '9V' setting provided 12V presumably due to low power load on the transformer. The 9V setting was selected and taped over, and was found to still be able to energize the ESPRFID's relay. A replacement 12V wall wart may be welcome, in order to free up a reasonably nice wall wart that could be used for other CCHS projects.
 
 ## Wiring
 The ESP-RFID controller and card-reader were connected by a six core wire. The SPI protocol was used.  
